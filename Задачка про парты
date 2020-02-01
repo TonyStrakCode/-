@@ -1,0 +1,11 @@
+class1 = int(input())
+class2 = int(input())
+class3 = int(input())
+parta1 = class1 // 2
+parta11 = parta1 + (class1 % 2)
+parta2 = class2 // 2
+parta22 = parta2 + (class2 % 2)
+parta3 = class3 // 2
+parta33 = parta3 + (class3 % 2)
+total = parta11 + parta22 + parta33
+print(total)
