@@ -1,0 +1,12 @@
+x1 = int(input())
+x2 = int(input())
+x3 = x1 + x2
+xfinal = x3 % 2
+y1 = int(input())
+y2 = int(input())
+y3 = y1 + y2
+yfinal = y3 % 2
+if xfinal == yfinal:
+    print('YES')
+else:
+    print('NO')
