@@ -1,0 +1,11 @@
+m = 109
+v = int(input())
+t = int(input())
+f = v*t
+if v > 0:
+    x = f % m
+if v < 0:
+    x = (f % m)
+elif v == 0:
+    x = 0
+print(x)
