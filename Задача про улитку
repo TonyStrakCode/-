@@ -1,0 +1,9 @@
+import math
+h = int(input())
+a = int(input())
+b = int(input())
+finalday = h - a
+preday = finalday / (a-b)
+day = preday + 1
+dayz = math.ceil(day)
+print(dayz)
