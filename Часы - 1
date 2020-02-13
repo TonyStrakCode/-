@@ -1,0 +1,6 @@
+h = int(input())
+m = int(input())
+s = int(input())
+perhour = 360 / 12 # угол в радианах за 1 час
+total = (h * perhour) + (m / 60 * perhour) + (s / 3600 * perhour)
+print(total)
