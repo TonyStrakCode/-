@@ -1,0 +1,8 @@
+hgradus = float(input())
+grperhour = 360 / 12 
+h = hgradus / grperhour
+mhour = h % 1
+minute = 60 * mhour
+grperminute = 360 / 60
+minutegradus = minute * grperminute
+print(minutegradus)
