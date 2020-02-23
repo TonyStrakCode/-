@@ -1,0 +1,7 @@
+import math
+gradus = float(input())
+gradusforsec = gradus/ 360 * 12 * 3600
+hour = gradusforsec // 3600
+minute = gradusforsec % 3600 // 60
+sec = math.floor(gradusforsec % 60)
+print (hour,minute,sec)
