@@ -1,0 +1,10 @@
+import math
+P = float(input())
+Rub = int(input())
+Kop = int(input())
+CurrentKop = Rub * 100 + Kop
+NextKop = CurrentKop * (1 + (P/100))
+NewRub = NextKop // 100
+print(NewRub)
+NewKop = math.floor (NextKop % 100,0)
+print(NewKop)
