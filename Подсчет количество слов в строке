@@ -1,0 +1,3 @@
+word = input()
+x=(word.count(' '))
+print(x+1)
