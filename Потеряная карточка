@@ -1,0 +1,9 @@
+n = int(input())
+x = 0
+y = 0
+for i in range (n-1):
+    k = int(input())
+    x += k
+for i in range (n+1):
+    y += i
+print(y-x)
